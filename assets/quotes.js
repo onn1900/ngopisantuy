@@ -1,10 +1,10 @@
 // prettier-ignore
 export default [
-    { author: "avrill.v", quotes: "Whatever happens, keep breathing" },
-    { author: "antjedtta_", quotes: "Pam pam pararam ceklek jedar\nPararam ram parararam ram" },
-    { author: "standinshd", quotes: "Hey! I wuv chuuuu! UwU" },
-    { author: "standinshd", quotes: "I love you." },
-    { author: "standinshd", quotes: "I may not with you everyday, but I love you everyday." },
-    { author: "standinshd", quotes: "NOVITA GENDENG." },
-    { author: "standinshd", quotes: "NOVITA PALING GENDENG" },
+    { author: "BBLACKFRCD", quotes: "Ojo lali ambekan" },
+    { author: "BBLACKFRCD", quotes: "Pam pam pararam ceklek jedar\nPararam ram parararam ram" },
+    { author: "BBLACKFRCD", quotes: "Hey! I wuv chuuuu! UwU" },
+    { author: "BBLACKFRCD", quotes: "I love you hiii geliii." },
+    { author: "BBLACKFRCD", quotes: "NOVITA HALU." },
+    { author: "BBLACKFRCD", quotes: "NOVITA GENDENG." },
+    { author: "BBLACKFRCD", quotes: "NOVITA PALING GENDENG" },
 ];
