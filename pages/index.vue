@@ -50,7 +50,7 @@ if (process.browser) {
       const x = ev.clientX;
       const y = ev.clientY;
       let el = document.createElement("div");
-      el.innerHTML = `<h1>${random(["♥", "♥♥", "♥♥♥"])}</h1>`;
+      el.innerHTML = `<h1>${random(["😂", "😂😂", "😂😂😂"])}</h1>`;
       el.classList.add("popup");
 
       el.style.left = `${x}px`;
@@ -67,7 +67,7 @@ export default {
   data() {
     return {
       // prettier-ignore
-      nicknames: this.random(["Ava", "Babe", "Sayang", "Avakuu", "Cintuu"]),
+      nicknames: this.random(["NOVITA", "NOVITA HALU", "NOVITA GENDENG", "MBOH POKOK E NOVITA", "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]),
       quotes: this.random(quotesFile),
       greetings: function() {
         const now = new Date().getHours();
@@ -75,7 +75,9 @@ export default {
         if (now > 15) return "Good Afternoon";
         if (now > 11) return "Good Day";
         if (now > 5) return "Good Morning";
+        if (now = 18) return "SELAMAT BERBUKA PUASA NOVITA 😊";
         if (now >= 0) return "Good Night";
+
       },
       darkMode: function() {
         const now = new Date().getHours();
@@ -83,6 +85,7 @@ export default {
         if (now > 15) return false;
         if (now > 11) return false;
         if (now > 5) return false;
+        if (now = 18) return true;
         if (now >= 0) return true;
       }
     };
