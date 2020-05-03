@@ -76,7 +76,7 @@ export default {
         if (now > 11) return "Good Day";
         if (now > 5) return "Good Morning";
         if (now == 18) return "SELAMAT BERBUKA PUASA NOVITA ";
-     
+        if (now <= 0) return "GOOD NIGHT...!";
 
       },
       darkMode: function() {
