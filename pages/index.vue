@@ -25,7 +25,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'I always wanted to tell you... ^2500', 'Nevermind! >///<']"
+        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'OJO KAKEAN HALU... ^2500', 'Nevermind! >///<']"
         :backDelay="500"
         :typeSpeed="100"
         :backSpeed="20"
@@ -75,7 +75,7 @@ export default {
         if (now > 15) return "Good Afternoon";
         if (now > 11) return "Good Day";
         if (now > 5) return "Good Morning";
-        if (now = 18) return "SELAMAT BERBUKA PUASA NOVITA 😊";
+        if (now == 18) return "SELAMAT BERBUKA PUASA NOVITA ";
         if (now >= 0) return "Good Night";
 
       },
@@ -85,7 +85,7 @@ export default {
         if (now > 15) return false;
         if (now > 11) return false;
         if (now > 5) return false;
-        if (now = 18) return true;
+        if (now == 18) return true;
         if (now >= 0) return true;
       }
     };
