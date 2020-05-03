@@ -76,15 +76,15 @@ export default {
         if (now > 11) return "Good Day";
         if (now > 5) return "Good Morning";
         if (now == 18) return "SELAMAT BERBUKA PUASA NOVITA ";
-        if (now >= 0) return "Good Night";
+     
 
       },
       darkMode: function() {
         const now = new Date().getHours();
         if (now > 18) return true;
-        if (now > 15) return true;
-        if (now > 11) return true;
-        if (now > 5) return true;
+        if (now > 15) return false;
+        if (now > 11) return false;
+        if (now > 5) return false;
         if (now == 18) return true;
         if (now >= 0) return true;
       }
