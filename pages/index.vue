@@ -25,7 +25,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'OJO KAKEAN HALU... ^2500', 'Nevermind! >///<']"
+        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'OJO KAKEAN HALU... ^2500', 'SEMMANGATTTT😂! >///<']"
         :backDelay="500"
         :typeSpeed="100"
         :backSpeed="20"
