@@ -25,7 +25,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'OJO KAKEAN HALU... ^2500', 'SEMMANGATTTT😂! >///<']"
+        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'OJO KAKEAN HALU... ^2500', 'SEMMANGATTTT😂! >_<']"
         :backDelay="500"
         :typeSpeed="100"
         :backSpeed="20"
@@ -67,7 +67,7 @@ export default {
   data() {
     return {
       // prettier-ignore
-      nicknames: this.random(["NOVITA", "NOVITA HALU", "NOVITA GENDENG", "MBOH POKOK E NOVITA", "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]),
+      nicknames: this.random(["NOVITA", "NOVITA HALU", "NOVITA GENDENG", "MBOH POKOK E NOVITA", "NOVITA RAMADHANI FIRDAUS"]),
       quotes: this.random(quotesFile),
       greetings: function() {
         const now = new Date().getHours();
