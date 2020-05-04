@@ -9,7 +9,7 @@ export default {
   head: {
     // titleTemplate: "%s - " + process.env.npm_package_name,
     // title: process.env.npm_package_name || "",
-    title: "I love you.",
+    title: "Time To Halu",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" },
