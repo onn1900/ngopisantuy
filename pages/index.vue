@@ -1,6 +1,6 @@
 <template>
   <div :class="darkMode() ? 'darkBG' : 'lightBG'">
-    <img src="\https://github.com/onn1900/ngopisantuy/blob/master/assets/img/20200117_184251.jpg"
+    <img src="~/assets/img/20200117_184251.jpg"
       
     />
     <audio src="~/assets/music.ogg" autoplay controls />
