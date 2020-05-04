@@ -1,6 +1,22 @@
 <template>
   <div :class="darkMode() ? 'darkBG' : 'lightBG'">
-    <img src="~/assets/img/20200117_184251.jpg"
+    <vue-particles
+      class="particles"
+      :color="darkMode() ? '#f5f5f5' : '#171717'"
+      :particleOpacity="0.7"
+      :particlesNumber="30"
+      shapeType="circle"
+      :particleSize="4"
+      linesColor="#dedede"
+      :linesWidth="1"
+      :lineLinked="true"
+      :lineOpacity="0.4"
+      :linesDistance="150"
+      :moveSpeed="3"
+      :hoverEffect="true"
+      hoverMode="grab"
+      :clickEffect="true"
+      clickMode="push"
       
     />
     <audio src="~/assets/music.ogg" autoplay controls />
